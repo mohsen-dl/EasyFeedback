@@ -259,11 +259,12 @@ public class FeedbackActivity extends AppCompatActivity implements View.OnClickL
         if (view.getId() == R.id.submitSuggestion) {
 
             String suggestion = editText.getText().toString();
-            if (suggestion.trim().length() > 0)
+            if (suggestion.trim().length() > 0) {
                 sendEmail(suggestion);
-            else
+                finish();
+            }else {
                 editText.setError(getString(R.string.please_write));
-
+            }
         } else if (view.getId() == R.id.selectImage)
             selectImage();
     }
