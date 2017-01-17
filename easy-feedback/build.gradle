@@ -26,12 +26,12 @@ ext {
 
 android {
 
-    compileSdkVersion 25
+    compileSdkVersion 24
     buildToolsVersion "24.0.1"
 
     defaultConfig {
         minSdkVersion 15
-        targetSdkVersion 22
+        targetSdkVersion 24
         versionCode 1
         versionName "1.0"
     }
@@ -44,7 +44,7 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:appcompat-v7:25.1.0'
+    compile 'com.android.support:appcompat-v7:24.2.1'
 }
 
 apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'

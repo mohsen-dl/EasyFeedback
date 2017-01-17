@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     public void onClickFeedback(View view) {
 
         new EasyFeedback.Builder(this)
-                .withEmail("webianks@gmail.com")
+                .withEmail("mohsen.dl@gmail.com")
                 .withSystemInfo()
                 .build()
                 .start();
