@@ -261,7 +261,6 @@ public class FeedbackActivity extends AppCompatActivity implements View.OnClickL
             String suggestion = editText.getText().toString();
             if (suggestion.trim().length() > 0) {
                 sendEmail(suggestion);
-                finish();
             }else {
                 editText.setError(getString(R.string.please_write));
             }
