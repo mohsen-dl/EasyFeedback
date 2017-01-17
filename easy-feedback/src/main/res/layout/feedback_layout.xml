@@ -17,7 +17,8 @@
             android:layout_marginLeft="@dimen/margin_thirty"
             android:layout_marginRight="@dimen/margin_thirty"
             android:layout_marginTop="@dimen/margin_thirty"
-            android:hint="@string/your_input" />
+            android:hint="@string/your_input"
+            android:textColor="@android:color/darker_gray" />
 
 
         <FrameLayout
@@ -49,7 +50,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:text="@string/select_image"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textColor="@android:color/darker_gray" />
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -67,7 +69,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/margin_thirty_two"
             android:layout_marginRight="@dimen/margin_thirty_two"
-            android:layout_marginTop="@dimen/margin_thirty_two" />
+            android:layout_marginTop="@dimen/margin_thirty_two"
+            android:textColor="@android:color/darker_gray" />
 
         <Button
             android:id="@+id/submitSuggestion"
