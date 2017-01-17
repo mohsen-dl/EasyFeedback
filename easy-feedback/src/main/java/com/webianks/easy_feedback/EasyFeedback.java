@@ -54,6 +54,7 @@ public class EasyFeedback {
     public void start() {
 
         Intent intent = new Intent(context, FeedbackActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         intent.putExtra("email", emailId);
         intent.putExtra("with_info", withSystemInfo);
         context.startActivity(intent);
